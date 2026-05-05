@@ -15,3 +15,8 @@ val AnaRenk = Color(0xFFCB2020)
 val Yazı1 = Color(0xFFFFFFFF)
 val Yazı2 = Color(0xFF636363)
 
+// DarkTheme
+val AnaRenkDark = Color(0xFFEF6C00)
+
+val Yazı2Dark = Color(0xFF9F9F9F)
+

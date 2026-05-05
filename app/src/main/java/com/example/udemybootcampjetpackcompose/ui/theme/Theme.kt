@@ -57,7 +57,7 @@ fun UdemyBootcampJetpackComposeTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            window.statusBarColor = AnaRenk.toArgb()
+            window.statusBarColor = if (darkTheme) AnaRenkDark.toArgb() else AnaRenk.toArgb()
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
         }
     }
